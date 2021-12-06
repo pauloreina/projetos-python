@@ -78,9 +78,7 @@ while True:
     print('*' * 30)
     while True:
         secreto = input('Digite uma palavra: ').strip().lower()
-        if secreto.isnumeric():
-            print('Digite apenas letras!')
-        elif secreto == '':
+        if secreto == '':
             print('Digite alguma palavra!')
         else:
             break
